@@ -23,8 +23,11 @@ def detect_file_changes(file_path, interval=1):
             last_modified = current_modified
         time.sleep(interval)
 
+
+# Main Loop
 while True:
-    # Main Loop
+    pass # TODO
+    
 
 
 

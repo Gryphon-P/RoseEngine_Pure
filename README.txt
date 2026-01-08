@@ -13,7 +13,9 @@ PROJECT ORGANIZATION (folders):
 - includes: C and C++ includes for stuff like GLFW and GLAD
     - Boost?
     - Bullet Physics?
-    - Raymath?
+    - Assimp
+    - GLFW
+    - GLAD
 - imports: Same as includes but for Python 
 - src: Source code for the engine, stuff I will be working on
     - rose_engine: defines the main interface with the game project and ties the entire engine together

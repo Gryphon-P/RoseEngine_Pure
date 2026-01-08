@@ -5,6 +5,7 @@ This file is meant to:.
 3. Inject code into project if it is running.
 4. If the project cannot be run by only recompiling one file, we recompile the entire project.
 
+Do I use .dll and .so files to hot reload?
 """
 
 import os

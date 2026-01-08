@@ -1,0 +1,2 @@
+- Make window
+- Plan clean interface for game projects

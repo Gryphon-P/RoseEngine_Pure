@@ -13,4 +13,6 @@ PROJECT ORGANIZATION (folders):
 - includes: C and C++ includes for stuff like GLFW and GLAD
 - src: Source code for the engine, stuff I will be working on
 - automation_scripts: python scripts that run automated tasks and can make development easier
+- test_game: test project to run the engine
+
 

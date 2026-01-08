@@ -19,6 +19,7 @@ PROJECT ORGANIZATION (folders):
     - rose_engine: defines the main interface with the game project and ties the entire engine together
     - ecs: Entity component system, holds the structs for all the components and the entity class
     - rendering: Includes all the structs and methods for rendering
+    - input: Includes all the data for getting user input with advanced input structures
 - automation_scripts: python scripts that run automated tasks and can make development easier
 - test_game: test project to run the engine
 

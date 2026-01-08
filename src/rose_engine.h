@@ -3,6 +3,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include "ecs.h"
+#include "rendering.h"
 
 /*
 OS Preprocessor macros, useful for multiplatform support. Aim for Linux and Windows:
@@ -15,7 +16,7 @@ OS Preprocessor macros, useful for multiplatform support. Aim for Linux and Wind
 
 // Defines the windows preprocessor macro
 #if defined(_WIN64) || defined(_WIN32)
-#define __windows__
+    #define __windows__
 #endif
 
 void Init();

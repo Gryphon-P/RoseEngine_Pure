@@ -1,11 +1,11 @@
 #include "rose_engine.h"
 
-#ifdef HOT_RELOAD
-// Hot reloading code
-#endif
 
 void Init()
 {
+    #ifdef HOT_RELOAD
+        std::system("automation_scripts/hot_reload.py")
+    #endif
 }
 
 void Update()

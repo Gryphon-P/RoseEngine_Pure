@@ -11,7 +11,10 @@ no downloading other programs other than say, GCC and the Python Interpreter.
 
 PROJECT ORGANIZATION (folders):
 - includes: C and C++ includes for stuff like GLFW and GLAD
+- imports: Same as includes but for Python 
 - src: Source code for the engine, stuff I will be working on
+    - rose_engine: defines the main interface with the game project and ties the entire engine together
+
 - automation_scripts: python scripts that run automated tasks and can make development easier
 - test_game: test project to run the engine
 

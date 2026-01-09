@@ -1,15 +1,11 @@
 #pragma once
 #include <vector>
-#include <raymath.h>
+#include "../includes/raymath.h"
 
-struct Scene {
-
-    std::vector<Entity> entities;
-    std::string name = "New Scene";
-
+struct cComponent {
+    
 };
 
-struct cComponent; // Forward declare
 struct Entity {
 
 
@@ -26,6 +22,11 @@ struct Entity {
 
 };
 
-struct cComponent {
-    
+struct Scene {
+
+    std::vector<Entity> entities;
+    std::string name = "New Scene";
+
 };
+
+

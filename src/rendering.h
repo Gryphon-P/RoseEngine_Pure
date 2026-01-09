@@ -20,10 +20,6 @@ struct SpotLight : Light
 {
 };
 
-struct SpotLight : Light 
-{
-};
-
 struct PlaneLight : Light 
 {
 };

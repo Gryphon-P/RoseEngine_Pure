@@ -3,6 +3,12 @@
 #include <string>
 #include "../includes/raymath.h"
 
+/*
+Reading reccomended to me:
+    - https://savas.ca/nomad
+    - https://github.com/SanderMertens/flecs
+*/
+
 struct cComponent {
     
 };

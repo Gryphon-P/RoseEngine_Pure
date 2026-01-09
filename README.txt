@@ -25,4 +25,13 @@ PROJECT ORGANIZATION (folders):
 - automation_scripts: python scripts that run automated tasks and can make development easier
 - test_game: test project to run the engine
 
+Repos suggested to me:
+    - https://github.com/KhronosGroup/MoltenVK
+    - https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API
+    - https://github.com/SanderMertens/flecs
+    - https://github.com/thisistherk/fast_obj
+    - https://github.com/jkuhlmann/cgltf
+    - https://github.com/nothings/stb/tree/master
+    - https://savas.ca/nomad
+
 

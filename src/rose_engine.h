@@ -14,11 +14,6 @@ OS Preprocessor macros, useful for multiplatform support. Aim for Linux and Wind
     __ANDROID__
 */
 
-// Defines the windows preprocessor macro
-#if defined(_WIN64) || defined(_WIN32)
-    #define __windows__
-#endif
-
 void Init();
 void Update();
 void Render();

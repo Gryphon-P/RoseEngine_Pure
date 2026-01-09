@@ -18,7 +18,7 @@ elif platform == "win32":
     subprocess.call(".venv/bin/Activate.ps1")
 else:
     # OS is unsupported
-    print(f"ERROR: OS is not supported, manually create virtual environment name .venv and pip install:\n{str(pipRequirements)}")
+    print(f"ERROR: OS is not supported, manually create virtual environment of name .venv and pip install:\n{str(pipRequirements)}")
 
 # Loops through each requirement
 for lib in pipRequirements:

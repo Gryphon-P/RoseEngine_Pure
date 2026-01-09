@@ -1,6 +1,6 @@
 #include "../src/rose_engine.h"
-#include "../includes/glfw3.h"
 #include "../includes/glad.h"
+#include "../includes/glfw3.h"
 
 
 int main() {

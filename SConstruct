@@ -1,6 +1,6 @@
 """
 SCons file for creating various rose_engine builds.
-
+https://scons.org/doc/production/PDF/scons-user.pdf
 Build type types:
     - Hot reloading
     - Scene editor
@@ -8,6 +8,9 @@ Build type types:
 """
 
 import sys
+
+# Creates the SCons env
+env = Environment()
 
 
 STANDARD_BUILD_KEYWORDS = ["standard", "st", "std"]

@@ -11,6 +11,9 @@ import sys
 
 # Creates the SCons env
 env = Environment()
+# To link together all compiled DLLs: env.Program(target='program', source=['main.c'], LIBS=dll_targets, LIBPATH=['.'])
+# A build system may be unnecacary due to cr.h or at the very least could be slimmed down drasticlly due to it not having to handle
+# hot reloading logic.
 
 
 STANDARD_BUILD_KEYWORDS = ["standard", "st", "std"]
@@ -40,7 +43,7 @@ elif (build_type_keyword in SCENE_EDITOR_BUILD_KEYWORDS):
     print("Starting Scene Editor...\n\n")
 else:
     raise Exception(
-    "Invalid build type keyword. Valid build keywords are: \n" \
+    "\nInvalid build type keyword. Valid build keywords are: \n" \
     "Build Project: 'standard' / 'st' / 'std'\n" \
     "Start Hot Reloading: 'hot-reload' / 'hr'\n" \
     "Open Scene Ediotor: 'scene-editor' / 'se'\n\n" \

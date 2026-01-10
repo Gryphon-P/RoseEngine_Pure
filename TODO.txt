@@ -1,2 +1,5 @@
 - Make window
 - Plan clean interface for game projects
+- Fix setup.py
+- Learn more about scons
+- 

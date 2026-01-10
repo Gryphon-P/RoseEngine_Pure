@@ -10,7 +10,7 @@ pip_requirements = [
 
 # Checks what OS the user has
 if platform == "linux" or platform == "linux2":
-    subprocess.call("python3 -m venv venv") # Creates venv
+    subprocess.call("python3 -m venv venv", shell=True) # Creates venv
     subprocess.call("source venv/bin/activate") # Activates venv
 elif platform == "win32":
     subprocess.call("python -m venv venv") # Creates venv

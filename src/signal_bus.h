@@ -22,11 +22,12 @@ static struct SignalBus {
     // Updates the timed durations and removes any completed signals
     void Update();
 
-    
-    void EmitSignal(std::string signalName, SignalType signalType);
-    void EmitSignal(std::string signalName, SignalType signalType, float signalDuration);
 
     
 
 
 };
+
+void EmitSignal(std::string signalName); // SINGLE_FRAME
+void EmitTimedSignal(std::string signalName, float duration); // TIMED
+void 
